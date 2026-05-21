@@ -11,17 +11,21 @@
             .video-info-grid{
                 display: grid;
                 grid-template-columns: 50px 1fr;
-
-
+            }
+            .videos{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 10px;
+                row-gap: 40px;
             }
             .search{
                 display:block;
                 margin-bottom: 10px;
             }
             .image{
-                width: 300px;
+                width: 100%;
                 margin-bottom: 10px;
-                 cursor: pointer;
+                cursor: pointer;
             }
             .description{
                 margin-top: 0%;
@@ -30,18 +34,6 @@
                 line-height: 20px;
                 margin-bottom: 10px;
                 cursor: pointer;
-            }
-            .video1{
-                display: inline-block;
-                margin-right: 15px;
-               
-
-            }
-            .video2{
-                display: inline-block;
-                vertical-align: top;
-                
-
             }
             .channel{
                 width: 50px;
@@ -67,45 +59,127 @@
 </head>
     <body>
         <input class="search" type="text" placeholder="Search">
-
-        <div class="video1">
-            <div>
-                <img class="image" src="images\thumbnail-1.webp">
-            </div>
-            <div class="video-info-grid">
-                <div class="channel"><img class="channel-img" src="images\channel-1.jpeg"></div>
-                <div class="video-info">
-                     <p class="description">
-                    Talking Tech and AI with Google CEO Sundar Pichai!
-                    </p>
-                    <p class="author">
-                        Marques Brownlee
-                    </p>
-                    <p class="video-stats">
-                        3.4M views · 6 months ago
-                    </p>
+        <div class="videos">
+            <div class="video1">
+                <div>
+                    <img class="image" src="images\thumbnail-1.webp">
                 </div>
-            </div>    
-        </div>
+                <div class="video-info-grid">
+                    <div class="channel"><img class="channel-img" src="images\channel-1.jpeg"></div>
+                    <div class="video-info">
+                        <p class="description">
+                        Talking Tech and AI with Google CEO Sundar Pichai!
+                        </p>
+                        <p class="author">
+                            Marques Brownlee
+                        </p>
+                        <p class="video-stats">
+                            3.4M views · 6 months ago
+                        </p>
+                    </div>
+                </div>    
+            </div>
 
-        <div class="video2">
-            <div>
-                <img class="image" src="images\thumbnail-2.webp">
+            <div class="video2">
+                <div>
+                    <img class="image" src="images\thumbnail-2.webp">
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel"><img class="channel-img" src="images\channel-2.jpeg"> </div>
+                    <div class="video-info">
+                        <p class="description">
+                            Try Not To Laugh Challenge #9
+                        </p>
+                        <p class="author">
+                            Markiplier
+                        </p>
+                        <p class="video-stats">
+                            19M views · 4 years ago
+                        </p>
+                    </div>     
+                </div>
             </div>
-            <div class="video-info-grid">
-                <div class="channel"><img class="channel-img" src="images\channel-2.jpeg"> </div>
-                <div class="video-info">
-                    <p class="description">
-                        Try Not To Laugh Challenge #9
-                    </p>
-                    <p class="author">
-                        Markiplier
-                    </p>
-                    <p class="video-stats">
-                        19M views · 4 years ago
-                    </p>
-                </div>     
+
+                        <div class="video1">
+                <div>
+                    <img class="image" src="images\thumbnail-3.webp">
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel"><img class="channel-img" src="images\channel-3.jpeg"></div>
+                    <div class="video-info">
+                        <p class="description">
+                        Crazy Tik Toks Taken Moments Before DISASTER
+                        </p>
+                        <p class="author">
+                            SSSniperWolf
+                        </p>
+                        <p class="video-stats">
+                            12M views · 1 year ago
+                        </p>
+                    </div>
+                </div>    
             </div>
+
+            <div class="video2">
+                <div>
+                    <img class="image" src="images\thumbnail-4.webp">
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel"><img class="channel-img" src="images\channel-4.jpeg"> </div>
+                    <div class="video-info">
+                        <p class="description">
+                            The Simplest Math Problem No One Can Solve - Collatz Conjecture
+                        </p>
+                        <p class="author">
+                            Veritasium
+                        </p>
+                        <p class="video-stats">
+                            18M views · 4 months ago
+                        </p>
+                    </div>     
+                </div>
+            </div>
+
+                        <div class="video1">
+                <div>
+                    <img class="image" src="images\thumbnail-5.webp">
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel"><img class="channel-img" src="images\channel-5.jpeg"></div>
+                    <div class="video-info">
+                        <p class="description">
+                            Kadane's Algorithm to Maximum Sum Subarray Problem
+                        </p>
+                        <p class="author">
+                            CS Dojo
+                        </p>
+                        <p class="video-stats">
+                            519K views · 5 years ago
+                        </p>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="video2">
+                <div>
+                    <img class="image" src="images\thumbnail-6.webp">
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel"><img class="channel-img" src="images\channel-6.jpeg"> </div>
+                    <div class="video-info">
+                        <p class="description">
+                            Anything You Can Fit In The Circle I’ll Pay For
+                        </p>
+                        <p class="author">
+                            MrBeast
+                        </p>
+                        <p class="video-stats">
+                            141M views · 1 year ago
+                        </p>
+                    </div>     
+                </div>
+            </div>
+
         </div>
     </body>
 </html>
