@@ -1,0 +1,36 @@
+    .header{
+        height: 60px;
+        display : flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .left-section{
+        background: lightblue;
+        width: 250px;
+        align-items: center;
+        display: flex;
+    }
+
+    .middle-section {
+        flex: 1;
+        background-color: pink;
+        margin-left: 30px;
+        max-width: 500px;
+        
+    }
+    .right-section {
+        background: lightblue ;
+        margin-left: 30px;
+        width: 250px;
+    }
+
+    .menu {
+        height: 25px;
+        margin-right: 10px;
+    }
+
+    .logo {
+        height: 20px;
+
+    }
