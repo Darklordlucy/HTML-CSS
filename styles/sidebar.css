@@ -1,0 +1,34 @@
+    .sidebar {
+        height: 1000px;
+        width: 100px;
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        top:55px;
+        background-color: white;
+        align-items: ;
+    }
+
+    .home {
+        height: 20px;
+    }
+
+    .explore {
+        height: 20px;
+    }
+
+    .subscriptions {
+        height: 20px;
+    }
+
+    .originals {
+        height: 20px;
+    }
+
+    .youtube-music {
+        height: 20px;
+    }
+
+    .library {
+        height: 20px;
+    }

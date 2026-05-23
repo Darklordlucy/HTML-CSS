@@ -14,6 +14,8 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10px;
     row-gap: 40px;
+    padding-top: 80px;
+    padding-left: 60px;
 }
 
 .search{
